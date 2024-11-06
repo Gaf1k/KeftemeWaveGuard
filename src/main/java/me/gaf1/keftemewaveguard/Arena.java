@@ -77,7 +77,7 @@ public class Arena {
             ChatUtil.sendMessage(player,"&cТебя же нету на арене");
         }
         if (playerInArena.size() == 0){
-            endGame();
+            loseGame();
         }
     }
 
@@ -151,7 +151,7 @@ public class Arena {
         player.setHealth(20);
         player.setSaturation(20);
         player.getInventory().clear();
-        player.getInventory().addItem(new ItemStack(Material.DIAMOND_SWORD));
+        player.getInventory().addItem(new ItemStack(Material.WOODEN_SWORD));
         player.getInventory().addItem(new ItemStack(Material.COOKED_BEEF,16));
         player.teleport(location);
     }
