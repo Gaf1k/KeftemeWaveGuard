@@ -1,0 +1,38 @@
+maxPlayers: 1
+
+World: world
+
+#  Указываем какие мобы будут спавнится (всего 4 сложности)
+Level:
+  first:
+  - Zombie
+  - Creeper
+  - Skeleton
+  second:
+  - Zombie
+  - Creeper
+  - Skeleton
+  - Spider
+  - Wither_Skeleton
+  third:
+  - Zombie
+  - Creeper
+  - Skeleton
+  - Spider
+  - Wither_Skeleton
+  - Slime
+  - SilverFish
+  - Witch
+  fourth:
+  - Zombie
+  - Creeper
+  - Skeleton
+  - Spider
+  - Wither_Skeleton
+  - Slime,SilverFish
+  - Witch
+  - Zoglin
+
+ArenaLocation:
+
+

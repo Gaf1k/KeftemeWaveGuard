@@ -1,0 +1,7 @@
+name: KeftemeWaveGuard
+version: '${project.version}'
+main: me.gaf1.keftemewaveguard.Plugin
+api-version: '1.16'
+description: Плагин создает мини игру. Суть мини игры заключается в том что игроки попадают на арену и там появляются волны всяких враждебных существ и игроки должны от них защищаться
+commands:
+  arena:
